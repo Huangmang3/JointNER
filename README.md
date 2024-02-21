@@ -15,9 +15,9 @@ python -m parser.cmd train -b \
     --device 1 \
     --path exp/test.model \
     --encoder bert \
-    --train /data/train.tree \
-    --dev /data/dev.tree \
-    --test /data/test.tree \
+    --train data/train.tree \
+    --dev data/dev.tree \
+    --test data/test.tree \
     --conf config/ptb.crf.con.roberta.ini \ 
 ```
 
@@ -27,5 +27,5 @@ python -m parser.cmd train -b \
 python -m parser.cmd evaluate \
     --device 1 \
     --path exp/test.model \
-    --data /data/test.tree \
+    --data data/test.tree \
 ```
