@@ -1,0 +1,6 @@
+log/
+exp/
+pred/
+ner/
+config/ptb.crf.con.lstm.char.par.ini
+*.sh
