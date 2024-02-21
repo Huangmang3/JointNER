@@ -1,6 +1,6 @@
 # JointNER
 
-Source code for COLING-2024's paper [Improving Chinese Named Entity Recognition with Multi-grained Words and Part-of-Speech Tags via Joint Modeling]().
+Source code for LREC-COLING-2024's paper [Improving Chinese Named Entity Recognition with Multi-grained Words and Part-of-Speech Tags via Joint Modeling]().
 
 ## Requirements:
 * `python`: >= 3.7
