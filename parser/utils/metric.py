@@ -156,12 +156,12 @@ class SpanMetric(Metric):
 
     def __repr__(self):
         s = f"NER_P: {self.nerp:6.2%} NER_R: {self.nerr:6.2%} NER_F: {self.nerf:6.2%} "
-        s += f"PROPN_P: {self.pp:6.2%} PROPN_R: {self.pr:6.2%} PROPN_F: {self.pf:6.2%} "
-        s += f"POS_P: {self.posp:6.2%} POS_R: {self.posr:6.2%} POS_F: {self.posf:6.2%} "
-        s += f"MWS_P: {self.up:6.2%} MWS_R: {self.ur:6.2%} MWS_F: {self.uf:6.2%} "
-        s += f"TOTAL_P: {self.lp:6.2%} TOTAL_R: {self.lr:6.2%} TOTAL_F: {self.lf:6.2%} "
-        s += f"UCM: {self.ucm:6.2%} LCM: {self.lcm:6.2%} "
-        s += f"NERTP: {self.nertp/100:6.2%} NERPRED: {self.nerpred/100:6.2%} PROPNPRED: {self.propnpred/100:6.2%} NERGOLD: {self.nergold/100:6.2%} NOT_TOP_ERROR: {self.not_top_error/100:6.2%}"
+        # s += f"PROPN_P: {self.pp:6.2%} PROPN_R: {self.pr:6.2%} PROPN_F: {self.pf:6.2%} "
+        # s += f"POS_P: {self.posp:6.2%} POS_R: {self.posr:6.2%} POS_F: {self.posf:6.2%} "
+        # s += f"MWS_P: {self.up:6.2%} MWS_R: {self.ur:6.2%} MWS_F: {self.uf:6.2%} "
+        # s += f"TOTAL_P: {self.lp:6.2%} TOTAL_R: {self.lr:6.2%} TOTAL_F: {self.lf:6.2%} "
+        # s += f"UCM: {self.ucm:6.2%} LCM: {self.lcm:6.2%} "
+        # s += f"NERTP: {self.nertp/100:6.2%} NERPRED: {self.nerpred/100:6.2%} PROPNPRED: {self.propnpred/100:6.2%} NERGOLD: {self.nergold/100:6.2%} NOT_TOP_ERROR: {self.not_top_error/100:6.2%}"
         return s
 
     @property
